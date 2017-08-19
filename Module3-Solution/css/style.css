@@ -67,8 +67,8 @@ h3{
 }
 
 @media (max-width: 767px){
-  .container{
-    margin: 0 30px;
+  .row{
+    margin: 0 20px;
   }
 
 }
