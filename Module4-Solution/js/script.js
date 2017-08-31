@@ -76,13 +76,38 @@
 // }
 // 	console.log("sum of 0through 9 is: " + sum);
 
-function orderChickenWith(sideDish) {
-	sideDish = sideDish || "whatever";
-	console.log("Checken With " + sideDish);
+
+
+
+// function orderChickenWith(sideDish) {
+// 	sideDish = sideDish || "whatever";
+// 	console.log("Checken With " + sideDish);
+// }
+// orderChickenWith("noodles");
+// orderChickenWith();
+
+
+
+//  var facebook = {
+//  	name: "facebook",
+//  	ceo: {
+//  		firstName: "Mark",
+//  		favcolor: "blue"
+//  	},
+//  	"stock of compny": 110
+//  };
+
+// console.log(facebook.ceo.firstName);
+
+
+function multiply(x, y) {
+	return x * y;
 }
-orderChickenWith("noodles");
-orderChickenWith();
+multiply.version = "v.1.0.0";
+console.log(multiply.version);
 
+// function factory
 
-
-
+function mul(argument) {
+	// body...
+}
